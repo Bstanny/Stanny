@@ -1,0 +1,14 @@
+<h2>Contactformulier</h2>
+<form action="mailto:je-email@voorbeeld.com" method="post" enctype="text/plain">
+  <label for="naam">Naam:</label>
+  <input type="text" id="naam" name="naam" required><br>
+
+  <label for="email">E-mailadres:</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="bericht">Bericht:</label>
+  <textarea id="bericht" name="bericht" required></textarea><br>
+
+  <input type="submit" value="Verstuur">
+  <input type="reset" value="Reset">
+</form>
